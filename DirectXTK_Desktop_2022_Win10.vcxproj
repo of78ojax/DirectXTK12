@@ -270,8 +270,8 @@
     <TargetName>DirectXTK12</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>Bin\Desktop_2022_Win10\$(Platform)\$(Configuration)\</OutDir>
-    <IntDir>Bin\Desktop_2022_Win10\$(Platform)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)\DxEngineLib\contrib\lib64\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\DxEngineLib\contrib\lib64\$(Configuration)\</IntDir>
     <TargetName>DirectXTK12</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
@@ -280,8 +280,8 @@
     <TargetName>DirectXTK12</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>Bin\Desktop_2022_Win10\$(Platform)\$(Configuration)\</OutDir>
-    <IntDir>Bin\Desktop_2022_Win10\$(Platform)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)\DxEngineLib\contrib\lib64\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\DxEngineLib\contrib\lib64\$(Configuration)\</IntDir>
     <TargetName>DirectXTK12</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
