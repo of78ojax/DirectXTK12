@@ -27,3 +27,4 @@ Bin
 /out
 /CMakeUserPresets.json
 Debug/
+Release/
