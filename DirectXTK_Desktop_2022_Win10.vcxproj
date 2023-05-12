@@ -270,8 +270,8 @@
     <TargetName>DirectXTK12</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>$(SolutionDir)\DxEngineLib\contrib\lib64\$(Configuration)\</OutDir>
-    <IntDir>$(SolutionDir)\DxEngineLib\contrib\lib64\$(Configuration)\</IntDir>
+    <OutDir>$(ProjectDir)\..\..\lib64\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)\$(Configuration)\</IntDir>
     <TargetName>DirectXTK12</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
@@ -280,8 +280,8 @@
     <TargetName>DirectXTK12</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>$(SolutionDir)\DxEngineLib\contrib\lib64\$(Configuration)\</OutDir>
-    <IntDir>$(SolutionDir)\DxEngineLib\contrib\lib64\$(Configuration)\</IntDir>
+    <OutDir>$(ProjectDir)\..\..\lib64\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)\$(Configuration)\</IntDir>
     <TargetName>DirectXTK12</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
